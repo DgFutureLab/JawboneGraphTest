@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7346965819A4409200845782 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7346965719A4409200845782 /* Foundation.framework */; };
+		7346965A19A4409200845782 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7346965919A4409200845782 /* CoreGraphics.framework */; };
+		7346965C19A4409200845782 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7346965B19A4409200845782 /* UIKit.framework */; };
+		7346966219A4409200845782 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7346966019A4409200845782 /* InfoPlist.strings */; };
+		7346966419A4409200845782 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7346966319A4409200845782 /* main.m */; };
+		7346966819A4409200845782 /* JCTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7346966719A4409200845782 /* JCTAppDelegate.m */; };
+		7346966B19A4409200845782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7346966919A4409200845782 /* Main.storyboard */; };
+		7346966E19A4409200845782 /* JCTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7346966D19A4409200845782 /* JCTViewController.m */; };
+		7346967019A4409200845782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7346966F19A4409200845782 /* Images.xcassets */; };
+		7346967719A4409200845782 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7346967619A4409200845782 /* XCTest.framework */; };
+		7346967819A4409300845782 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7346965719A4409200845782 /* Foundation.framework */; };
+		7346967919A4409300845782 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7346965B19A4409200845782 /* UIKit.framework */; };
+		7346968119A4409300845782 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7346967F19A4409300845782 /* InfoPlist.strings */; };
+		7346968319A4409300845782 /* Jawbone_Chart_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7346968219A4409300845782 /* Jawbone_Chart_TestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7346967A19A4409300845782 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7346964C19A4409200845782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7346965319A4409200845782;
+			remoteInfo = "Jawbone Chart Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7346965419A4409200845782 /* Jawbone Chart Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jawbone Chart Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7346965719A4409200845782 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7346965919A4409200845782 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7346965B19A4409200845782 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7346965F19A4409200845782 /* Jawbone Chart Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Jawbone Chart Test-Info.plist"; sourceTree = "<group>"; };
+		7346966119A4409200845782 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7346966319A4409200845782 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7346966519A4409200845782 /* Jawbone Chart Test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jawbone Chart Test-Prefix.pch"; sourceTree = "<group>"; };
+		7346966619A4409200845782 /* JCTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JCTAppDelegate.h; sourceTree = "<group>"; };
+		7346966719A4409200845782 /* JCTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCTAppDelegate.m; sourceTree = "<group>"; };
+		7346966A19A4409200845782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7346966C19A4409200845782 /* JCTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JCTViewController.h; sourceTree = "<group>"; };
+		7346966D19A4409200845782 /* JCTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCTViewController.m; sourceTree = "<group>"; };
+		7346966F19A4409200845782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7346967519A4409200845782 /* Jawbone Chart TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jawbone Chart TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7346967619A4409200845782 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7346967E19A4409300845782 /* Jawbone Chart TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Jawbone Chart TestTests-Info.plist"; sourceTree = "<group>"; };
+		7346968019A4409300845782 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7346968219A4409300845782 /* Jawbone_Chart_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Jawbone_Chart_TestTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7346965119A4409200845782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7346965A19A4409200845782 /* CoreGraphics.framework in Frameworks */,
+				7346965C19A4409200845782 /* UIKit.framework in Frameworks */,
+				7346965819A4409200845782 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7346967219A4409200845782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7346967719A4409200845782 /* XCTest.framework in Frameworks */,
+				7346967919A4409300845782 /* UIKit.framework in Frameworks */,
+				7346967819A4409300845782 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7346964B19A4409200845782 = {
+			isa = PBXGroup;
+			children = (
+				7346965D19A4409200845782 /* Jawbone Chart Test */,
+				7346967C19A4409300845782 /* Jawbone Chart TestTests */,
+				7346965619A4409200845782 /* Frameworks */,
+				7346965519A4409200845782 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7346965519A4409200845782 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7346965419A4409200845782 /* Jawbone Chart Test.app */,
+				7346967519A4409200845782 /* Jawbone Chart TestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7346965619A4409200845782 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7346965719A4409200845782 /* Foundation.framework */,
+				7346965919A4409200845782 /* CoreGraphics.framework */,
+				7346965B19A4409200845782 /* UIKit.framework */,
+				7346967619A4409200845782 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7346965D19A4409200845782 /* Jawbone Chart Test */ = {
+			isa = PBXGroup;
+			children = (
+				7346966619A4409200845782 /* JCTAppDelegate.h */,
+				7346966719A4409200845782 /* JCTAppDelegate.m */,
+				7346966919A4409200845782 /* Main.storyboard */,
+				7346966C19A4409200845782 /* JCTViewController.h */,
+				7346966D19A4409200845782 /* JCTViewController.m */,
+				7346966F19A4409200845782 /* Images.xcassets */,
+				7346965E19A4409200845782 /* Supporting Files */,
+			);
+			path = "Jawbone Chart Test";
+			sourceTree = "<group>";
+		};
+		7346965E19A4409200845782 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7346965F19A4409200845782 /* Jawbone Chart Test-Info.plist */,
+				7346966019A4409200845782 /* InfoPlist.strings */,
+				7346966319A4409200845782 /* main.m */,
+				7346966519A4409200845782 /* Jawbone Chart Test-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7346967C19A4409300845782 /* Jawbone Chart TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				7346968219A4409300845782 /* Jawbone_Chart_TestTests.m */,
+				7346967D19A4409300845782 /* Supporting Files */,
+			);
+			path = "Jawbone Chart TestTests";
+			sourceTree = "<group>";
+		};
+		7346967D19A4409300845782 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7346967E19A4409300845782 /* Jawbone Chart TestTests-Info.plist */,
+				7346967F19A4409300845782 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7346965319A4409200845782 /* Jawbone Chart Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7346968619A4409300845782 /* Build configuration list for PBXNativeTarget "Jawbone Chart Test" */;
+			buildPhases = (
+				7346965019A4409200845782 /* Sources */,
+				7346965119A4409200845782 /* Frameworks */,
+				7346965219A4409200845782 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Jawbone Chart Test";
+			productName = "Jawbone Chart Test";
+			productReference = 7346965419A4409200845782 /* Jawbone Chart Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7346967419A4409200845782 /* Jawbone Chart TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7346968919A4409300845782 /* Build configuration list for PBXNativeTarget "Jawbone Chart TestTests" */;
+			buildPhases = (
+				7346967119A4409200845782 /* Sources */,
+				7346967219A4409200845782 /* Frameworks */,
+				7346967319A4409200845782 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7346967B19A4409300845782 /* PBXTargetDependency */,
+			);
+			name = "Jawbone Chart TestTests";
+			productName = "Jawbone Chart TestTests";
+			productReference = 7346967519A4409200845782 /* Jawbone Chart TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7346964C19A4409200845782 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JCT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Digital Garage";
+				TargetAttributes = {
+					7346967419A4409200845782 = {
+						TestTargetID = 7346965319A4409200845782;
+					};
+				};
+			};
+			buildConfigurationList = 7346964F19A4409200845782 /* Build configuration list for PBXProject "Jawbone Chart Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7346964B19A4409200845782;
+			productRefGroup = 7346965519A4409200845782 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7346965319A4409200845782 /* Jawbone Chart Test */,
+				7346967419A4409200845782 /* Jawbone Chart TestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7346965219A4409200845782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7346967019A4409200845782 /* Images.xcassets in Resources */,
+				7346966219A4409200845782 /* InfoPlist.strings in Resources */,
+				7346966B19A4409200845782 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7346967319A4409200845782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7346968119A4409300845782 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7346965019A4409200845782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7346966819A4409200845782 /* JCTAppDelegate.m in Sources */,
+				7346966419A4409200845782 /* main.m in Sources */,
+				7346966E19A4409200845782 /* JCTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7346967119A4409200845782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7346968319A4409300845782 /* Jawbone_Chart_TestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7346967B19A4409300845782 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7346965319A4409200845782 /* Jawbone Chart Test */;
+			targetProxy = 7346967A19A4409300845782 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7346966019A4409200845782 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7346966119A4409200845782 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7346966919A4409200845782 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7346966A19A4409200845782 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7346967F19A4409300845782 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7346968019A4409300845782 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7346968419A4409300845782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7346968519A4409300845782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7346968719A4409300845782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jawbone Chart Test/Jawbone Chart Test-Prefix.pch";
+				INFOPLIST_FILE = "Jawbone Chart Test/Jawbone Chart Test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7346968819A4409300845782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jawbone Chart Test/Jawbone Chart Test-Prefix.pch";
+				INFOPLIST_FILE = "Jawbone Chart Test/Jawbone Chart Test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7346968A19A4409300845782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Jawbone Chart Test.app/Jawbone Chart Test";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jawbone Chart Test/Jawbone Chart Test-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Jawbone Chart TestTests/Jawbone Chart TestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7346968B19A4409300845782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Jawbone Chart Test.app/Jawbone Chart Test";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jawbone Chart Test/Jawbone Chart Test-Prefix.pch";
+				INFOPLIST_FILE = "Jawbone Chart TestTests/Jawbone Chart TestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7346964F19A4409200845782 /* Build configuration list for PBXProject "Jawbone Chart Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7346968419A4409300845782 /* Debug */,
+				7346968519A4409300845782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7346968619A4409300845782 /* Build configuration list for PBXNativeTarget "Jawbone Chart Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7346968719A4409300845782 /* Debug */,
+				7346968819A4409300845782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7346968919A4409300845782 /* Build configuration list for PBXNativeTarget "Jawbone Chart TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7346968A19A4409300845782 /* Debug */,
+				7346968B19A4409300845782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7346964C19A4409200845782 /* Project object */;
+}
