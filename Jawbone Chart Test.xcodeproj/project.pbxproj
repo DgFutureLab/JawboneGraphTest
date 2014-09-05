@@ -21,6 +21,8 @@
 		7346967919A4409300845782 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7346965B19A4409200845782 /* UIKit.framework */; };
 		7346968119A4409300845782 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7346967F19A4409300845782 /* InfoPlist.strings */; };
 		7346968319A4409300845782 /* Jawbone_Chart_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7346968219A4409300845782 /* Jawbone_Chart_TestTests.m */; };
+		7346968E19A71ECD00845782 /* JCTLineChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7346968D19A71ECD00845782 /* JCTLineChartViewController.m */; };
+		D46C39CEF9124970BDD8C9A9 /* libPods-Jawbone Chart Test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA1B70EFB8C54494A71E0EF7 /* libPods-Jawbone Chart Test.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		182A237C397C4C59A01F0DD3 /* Pods-Jawbone Chart Test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jawbone Chart Test.xcconfig"; path = "Pods/Pods-Jawbone Chart Test.xcconfig"; sourceTree = "<group>"; };
 		7346965419A4409200845782 /* Jawbone Chart Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jawbone Chart Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7346965719A4409200845782 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7346965919A4409200845782 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +56,9 @@
 		7346967E19A4409300845782 /* Jawbone Chart TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Jawbone Chart TestTests-Info.plist"; sourceTree = "<group>"; };
 		7346968019A4409300845782 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7346968219A4409300845782 /* Jawbone_Chart_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Jawbone_Chart_TestTests.m; sourceTree = "<group>"; };
+		7346968C19A71ECD00845782 /* JCTLineChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCTLineChartViewController.h; sourceTree = "<group>"; };
+		7346968D19A71ECD00845782 /* JCTLineChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCTLineChartViewController.m; sourceTree = "<group>"; };
+		AA1B70EFB8C54494A71E0EF7 /* libPods-Jawbone Chart Test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Jawbone Chart Test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,7 @@
 				7346965A19A4409200845782 /* CoreGraphics.framework in Frameworks */,
 				7346965C19A4409200845782 /* UIKit.framework in Frameworks */,
 				7346965819A4409200845782 /* Foundation.framework in Frameworks */,
+				D46C39CEF9124970BDD8C9A9 /* libPods-Jawbone Chart Test.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +93,7 @@
 				7346967C19A4409300845782 /* Jawbone Chart TestTests */,
 				7346965619A4409200845782 /* Frameworks */,
 				7346965519A4409200845782 /* Products */,
+				182A237C397C4C59A01F0DD3 /* Pods-Jawbone Chart Test.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +113,7 @@
 				7346965919A4409200845782 /* CoreGraphics.framework */,
 				7346965B19A4409200845782 /* UIKit.framework */,
 				7346967619A4409200845782 /* XCTest.framework */,
+				AA1B70EFB8C54494A71E0EF7 /* libPods-Jawbone Chart Test.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -117,6 +126,8 @@
 				7346966919A4409200845782 /* Main.storyboard */,
 				7346966C19A4409200845782 /* JCTViewController.h */,
 				7346966D19A4409200845782 /* JCTViewController.m */,
+				7346968C19A71ECD00845782 /* JCTLineChartViewController.h */,
+				7346968D19A71ECD00845782 /* JCTLineChartViewController.m */,
 				7346966F19A4409200845782 /* Images.xcassets */,
 				7346965E19A4409200845782 /* Supporting Files */,
 			);
@@ -159,9 +170,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7346968619A4409300845782 /* Build configuration list for PBXNativeTarget "Jawbone Chart Test" */;
 			buildPhases = (
+				6DF81A87B6034BF195E80B6F /* Check Pods Manifest.lock */,
 				7346965019A4409200845782 /* Sources */,
 				7346965119A4409200845782 /* Frameworks */,
 				7346965219A4409200845782 /* Resources */,
+				AE0D0D11FDEC420789995834 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,12 +258,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6DF81A87B6034BF195E80B6F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AE0D0D11FDEC420789995834 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Jawbone Chart Test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7346965019A4409200845782 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7346966819A4409200845782 /* JCTAppDelegate.m in Sources */,
+				7346968E19A71ECD00845782 /* JCTLineChartViewController.m in Sources */,
 				7346966419A4409200845782 /* main.m in Sources */,
 				7346966E19A4409200845782 /* JCTViewController.m in Sources */,
 			);
@@ -374,6 +421,7 @@
 		};
 		7346968719A4409300845782 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 182A237C397C4C59A01F0DD3 /* Pods-Jawbone Chart Test.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -387,6 +435,7 @@
 		};
 		7346968819A4409300845782 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 182A237C397C4C59A01F0DD3 /* Pods-Jawbone Chart Test.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -457,6 +506,7 @@
 				7346968819A4409300845782 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7346968919A4409300845782 /* Build configuration list for PBXNativeTarget "Jawbone Chart TestTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +515,7 @@
 				7346968B19A4409300845782 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
